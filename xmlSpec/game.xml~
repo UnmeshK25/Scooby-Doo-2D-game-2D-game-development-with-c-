@@ -1,0 +1,155 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+
+
+<screenTitle>
+	<title>
+	Unmesh Kanchan
+	</title>
+	<locationx>20</locationx>
+	<locationy>530</locationy>
+</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>450</maxFrames>
+<username>ukancha</username>
+
+<frames>100</frames>
+
+<window>
+  <width>854</width>
+  <height>564</height>
+</window>
+
+<view>
+  <width>854</width>
+  <height>564</height>
+</view>
+
+<world>
+  <width>2274</width>
+  <height>564</height>
+</world>
+
+<scoobyBack1>
+  <file>images/background1.jpg</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</scoobyBack1>
+
+<scoobyBack2>
+  <file>images/background2.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</scoobyBack2>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+  <alpha>0</alpha>
+</font>
+
+<hudBar>
+	<width>300</width>
+	<height>300</height>
+	<file>images/hud.png</file>
+	<startLoc x="30" y="20"/>
+	<color red="255" green="255" blue="0"/>
+	<time>3</time>
+</hudBar>
+
+<bat>
+  <file>images/bats.png</file>
+  <startLoc x="20" y="40"/>
+  <endLoc x="800" y="480"/>
+  <cushion>50</cushion>
+  <noOfObjects actual="1" instances="12"/>
+  <scale min="0.2" max="1.0"/>
+  <src x="0" y="0"/>
+  <frames>10</frames>
+  <frameInterval>80</frameInterval>
+  <minspeed x="10" y="10"/>
+  <maxspeed x="300" y="200"/>
+  <speedX>-150</speedX>
+  <speedY>30</speedY>
+  <comeback>true</comeback>
+  <startOver>true</startOver>
+  <transparency>true</transparency>
+  <chunk>
+    <size>10</size>
+    <distance>50</distance>
+  </chunk>
+</bat>
+
+<scooby>
+  <file>images/scooby_dog.png</file>
+  <startLoc x="50" y="500"/>
+  <frames>14</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-150</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>10</size>
+    <distance>20</distance>
+  </chunk>
+</scooby>
+
+<shabby>
+  <file>images/shaggy.png</file>
+  <startLoc x="30" y="450"/>
+  <frames>20</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-150</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</shabby>
+
+<boy>
+  <file>images/Boy.png</file>
+  <startLoc x="25" y="450"/>
+  <frames>24</frames>
+  <frameInterval>90</frameInterval>
+  <speedX>-140</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</boy>
+
+<ghost>
+  <file>images/ghost.png</file>
+  <bullet>raybeam</bullet>
+  <startLoc x="0" y="400"/>
+  <frames>18</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-110</speedX>
+  <speedY>110</speedY>
+  <transparency>true</transparency>
+</ghost>
+
+<raybeam>
+  <file>images/raybeam.png</file>
+  <interval>100</interval>
+  <distance>320</distance>
+  <startLoc x="100" y="100"/>
+  <speedX>500</speedX>
+  <speedY>0</speedY>
+  <strategy>rectangular</strategy>
+</raybeam>
+
+</GameData>

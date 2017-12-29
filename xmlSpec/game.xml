@@ -1,0 +1,195 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+
+
+<screenTitle>
+	<title>
+	Scooby doo game by Unmesh Kanchan
+	</title>
+	<locationx>20</locationx>
+	<locationy>450</locationy>
+</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>900</maxFrames>
+<username>ukancha</username>
+
+<frames>100</frames>
+<safeDistance>275</safeDistance>
+
+<window>
+  <width>854</width>
+  <height>480</height>
+</window>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>5000</width>
+  <height>480</height>
+</world>
+
+<scoobyBack1>
+  <file>images/background1.jpg</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</scoobyBack1>
+
+<scoobyBack2>
+  <file>images/background2.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</scoobyBack2>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>20</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+  <alpha>0</alpha>
+</font>
+
+<hudBar>
+	<width>260</width>
+	<width1>200</width1>
+	<height>300</height>
+	<file>images/hud.png</file>
+	<startLoc x="30" y="20"/>
+	<time>3</time>
+</hudBar>
+
+<hudLoss>
+	<losswidth>250</losswidth>
+	<width1>200</width1>
+	<lossheight>140</lossheight>
+	<file>images/hud.png</file>
+	<startLoc x="250" y="170"/>
+
+</hudLoss>
+
+<hudWin>
+	<winwidth>260</winwidth>
+	<width1>200</width1>
+	<winheight>70</winheight>
+	<file>images/hud.png</file>
+	<startLoc x="520" y="30"/>
+
+</hudWin>
+
+<healthBar>
+	<healthwidth>200</healthwidth>
+	<healthheight>30</healthheight>
+  <startLoc x="300" y="30"/>
+  <incrdecr>20</incrdecr>
+</healthBar>
+
+<bat>
+  <file>images/bats.png</file>
+  <startLoc x="20" y="40"/>
+  <endLoc x="800" y="480"/>
+  <cushion>50</cushion>
+  <noOfObjects actual="1" instances="12"/>
+  <scale min="0.2" max="1.2"/>
+  <src x="0" y="0"/>
+  <frames>10</frames>
+  <frameInterval>80</frameInterval>
+  <minspeed x="10" y="10"/>
+  <maxspeed x="300" y="200"/>
+  <speedX>-150</speedX>
+  <speedY>30</speedY>
+  <startOver>true</startOver>
+  <transparency>true</transparency>
+  <chunk>
+    <size>15</size>
+    <distance>50</distance>
+  </chunk>
+</bat>
+
+<crown>
+  <file>images/tchest.png</file>
+  <startLoc x="4800" y="340"/>
+  <frames>1</frames>
+  <frameInterval>1</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  
+</crown>
+
+<scooby>
+  <file>images/scooby_dog.png</file>
+  <startLoc x="50" y="415"/>
+  <frames>14</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-150</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>10</size>
+    <distance>20</distance>
+  </chunk>
+</scooby>
+
+<shabby>
+  <file>images/shaggy.png</file>
+  <startLoc x="30" y="385"/>
+  <frames>20</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-150</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</shabby>
+
+<boy>
+  <file>images/Boy.png</file>
+  <startLoc x="25" y="385"/>
+  <frames>24</frames>
+  <frameInterval>90</frameInterval>
+  <speedX>-140</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</boy>
+
+<ghost>
+  <file>images/ghost.png</file>
+  <bullet>bullet1</bullet>
+  <startLoc x="0" y="120"/>
+  <frames>18</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>-110</speedX>
+  <speedY>110</speedY>
+  <transparency>true</transparency>
+ <chunk>
+    <size>10</size>
+    <distance>100</distance>
+  </chunk>
+</ghost>
+
+<bullet1>
+  <file>images/raybeam.png</file>
+  <interval>100</interval>
+  <distance>320</distance>
+  <startLoc x="100" y="100"/>
+  <speedX>500</speedX>
+  <speedY>0</speedY>
+  <strategy>rectangular</strategy>
+</bullet1>
+
+</GameData>
