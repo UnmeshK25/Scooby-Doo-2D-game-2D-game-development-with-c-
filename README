@@ -1,0 +1,47 @@
+Name: Unmesh Kanchan
+
+Clemson Email Address: ukancha@clemson.edu
+
+Project no: 5 and 6 (Final)
+
+Project due date:May 2nd, 2017
+
+Project description: The data driven animation project of final game development with artifitial intelligence includes the implementation of singleton, factory, flyweight design patterns through different classes in tracker framework. The tracker framework includes XML parser, the data changes in XML reflects the changes in animation through framework. The project includes the development and implementation of collision detection and explosion on collision detection. Implementation of shooting of bullets by player who is controlling based on 'a','s','d','w' keyboard keys. This project also includes the implementation of artifitial intelligence. Basically this project is about to developed complete 2D game with AI.
+
+The easiest part of this project: The implementation of collision detection and explosion of multisprites,shooting by player adding sound effects and artifitial intelligence.
+
+Problems that I had in completing this project: I didn't face any problems while completing this project.
+
+Description and basic information about the game: The animation theme that I have used in the project is 'Scooby Doo'. And based on these theme, I developed 'Scooby doo game' I used the sprites of different characters of scooby doo cartoon with scooby doo theme background. In the game ghost player controlled by 'a','s','d','w' keyboard keys. Player can kill flying bat by shooting bones using space bar. Player's health get reduce once it get collide with bat and player get explodes when it collide with any of scooby characters. Player has three lives and once all lives finish or health reduces to zero, game get over and using 'r' key, we can restart game. To win game, player has to score minimum 15 i.e player has to kill 15 bats and once player reach to tresure chest at the end, player wins game.
+
+Details of Project (Game features):
+1.Artifitial intellegence in game: I have implemented two AI parts in this game using observer design pattern:
+   a. In first part, initially all bats (enemies) are in normal state and once ghost player shoot bat, then bat explodes and reappears as intellegent bat and it starts move towards player.
+   b. In second part, when ghost player come close to scooby doo characters (scooby, shaggy ,boy) on ground, the scooby characters start following player. and once player goes away from charaters, they  	 unfollow player.
+2. Collision and explosion: I check three basic collisions a. collision between ghost player and bats, collision between player and scooby characters and collision between bullet and bats. I used midpoint collision strategy. Here among three collisions, once collision between player and scooby characters occures, player get explodes, again when collision between bullets and bat occures, bat get explodes.
+
+3. Implemented projectiles: A projectiles/shooting is implemented for player object using key space bar. A shooting object like bones is triggered from player on detecting keypress. These projectiles collide with bat and result into explosion of bat.
+4. Health bar: The health bar display in game indicates the health of player. Once player collides with bat, player's health get reduced by 20% and when player shoot bat, player's health get increase by 20%.
+5. A Demonstrated Object Pool: The active bullets and bullet pool information display in hud at right hand side of game screen.
+6. God mode: I impolemented god mode in this game in which once God mode enable by using 'g' key, player can not get explode once it collide with scooby characters and it's health not get reduce when it get collides with bat.
+7. Sound: I added sound effects on explosion of player, bats and also background music playes continuously.
+8. Implemented reset functionality that restarts game using R key.
+
+9. The painter's algorithm implementation: In implementation of painter's algorithm includes the scaling the instances of sprites/multisprites and sorting them and drawing them based on size. To scale the sprite's instances I created 'scaledSprite' class which inherites the multisprite class. Here in scaledSprite class constructor, the multisprites class constructor get called to which the scale and name of multisprite passed as parameters. In multisprite class, I have implemented the makeVelocity function which create velocity for each instance of sprite based on scale factor.
+10. Player's Score: Implemented scores based on the number of bats killed. Here to win the game, player has to score minimum 15.
+11. Frame generation :Implemented generation of frames using F4 key.
+12. Hud : Implemented different Hud class that shows game information, winning information, losing information, bullet pool information and player's lives information.
+
+I used sprites and background from following web sources:  
+
+Sprite and images sources on web:
+1. https://www.spriters-resource.com/game_boy_advance/scoobytcc/
+2. http://flavorwire.com/344864/spooky-background-paintings-from-scooby-doo
+3. http://comicsalliance.com/the-awesomely-creepy-background-art-of-scooby-doo/
+4. http://worldofwonder.net/scooby-doo-art/
+5. https://www.pinterest.com/pin/399272323184555695/
+
+Sources of sound tracks:
+Sound tracks provided by Prof. Dr. Malloy
+Web source of sound track:
+https://www.dl-sounds.com/
